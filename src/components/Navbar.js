@@ -10,7 +10,7 @@ import headerVideo from '../assets/videos/header_vid.mp4'
 
 const Navbar = () => {
 
-    const [isOpen,setIsOpen] = useState(false);
+    const [isOpen,setIsOpen] = useState(true);
     const [navbar, setNavbar] = useState(false);
 
     useEffect(() => {
@@ -38,6 +38,9 @@ const Navbar = () => {
                     <div className="navbar-logo">
                         <Link to="/"><img src={headerLogo} alt="" /></Link>
                     </div>
+                    <div className={`nav-toggle ${isOpen ? "open" : "closed"}`} onClick={() => setIsOpen(!isOpen)}>
+                                <i><FontAwesomeIcon icon={ isOpen === false ? faBars : faXmark } /></i>
+                    </div>
                     <div className={navbar ? `navbar-links ${isOpen && "open"} active` : `navbar-links ${isOpen && "open"}`}>
                     {/* <div className={`navbar-links ${isOpen && "open"}`}> */}
                         <ul>
@@ -50,14 +53,9 @@ const Navbar = () => {
                             <li><a href="#menu">Menu</a></li>
                             <li><a href="#gallery">Gallery</a></li>
                             <li><a href="#contact">Contact Us</a></li>
-                           
                         </ul>
                     </div>
-                    <div className={`nav-toggle ${isOpen ? "open" : "closed"}`} onClick={() => setIsOpen(!isOpen)}>
-                                <i><FontAwesomeIcon icon={ isOpen === false ? faBars : faXmark } /></i>
-                            {/* <i><FontAwesomeIcon icon={faXmark} /></i>
-                            <i><FontAwesomeIcon icon={`faBars`} /></i> */}
-                    </div>
+               
                 </nav>
                 <div className="header-video" id="header-video">
                     <video src={headerVideo} autoPlay loop muted />

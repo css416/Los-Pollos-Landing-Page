@@ -28,8 +28,9 @@ header {
 }
 
 .navbar-logo {
-  width: 25.33%;
-  max-width: 120px;
+  width: 8%;
+  max-width: 220px;
+  min-width: 120px;
   margin: 1rem;
 }
 
@@ -41,24 +42,39 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding: 0.5em;
+}
+
+@keyframes rotateNavDropdown {
+  0% {
+      transform: rotateX(-90deg)
+  }
+  70% {
+      transform: rotateX(20deg) 
+  }
+  100% {
+      transform: rotateX(0deg) 
+  }
 }
 
 .navbar-links li a {
-  font-size: clamp(1rem, 1.25vw, 2rem);
+  font-size: clamp(1rem, 1.25vw, 5rem);
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1rem;
+  /* padding: 1rem; */
   color: #f1f1f1;
 }
 
 .navbar-links li {
   list-style: none;
   transition: transform 250ms ease-in-out, opacity 250ms linear;
+  padding: 1em;
 }
 
-.navbar-links li:hover,
-li:focus {
+.navbar-links 
+li:hover,
+li:focus,
+li:active {
   transform: scale(1.25);
   opacity: 0.9;
 }
@@ -85,7 +101,7 @@ li:focus {
   align-items: center;
   justify-content: center;
   width: 100%;
-  bottom: 8%;
+  bottom: 20%;
   transition: 0.3s;
 }
 

@@ -42,7 +42,6 @@
 @media (max-width: 866px) {
   .navbar {
     justify-content: space-between;
-    padding: 0 2rem 0 0;
   }
 
   .navbar-links.false {
@@ -50,10 +49,7 @@
   }
 
   .navbar-links.open {
-    position: absolute;
-    top: 9.5rem;
     width: 100%;
-    background: var(--navbgtrans);
     line-height: 1.4;
     margin-right: 0;
   }
@@ -63,6 +59,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    animation: rotateNavDropdown 650ms ease-in-out forwards;
+    transform-origin: top center;
   }
 
   .navbar-links.open.active {
@@ -77,15 +75,16 @@
   .nav-toggle {
     display: block;
     font-size: 2rem;
+    padding-left: 1em;
   }
 
   .nav-toggle.open {
-    transition: transform 0.4s;
+    transition: transform 0.3s;
     transform: rotate(-180deg);
   }
 
   .nav-toggle.closed {
-    transition: transform 0.4s;
+    transition: transform 0.3s;
     transform: rotate(180deg);
   }
 
