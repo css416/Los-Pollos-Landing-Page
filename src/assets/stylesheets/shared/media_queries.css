@@ -2,9 +2,9 @@
   main {
     margin: 0;
   }
-  .about-us {
+  /* .about-us {
     flex-wrap: wrap;
-  }
+  } */
   .about-us > div {
     flex: 0 1 auto;
   }
@@ -36,6 +36,12 @@
     flex: 100%;
     max-width: 80%;
     scroll-snap-align: center;
+  }
+}
+
+@media (max-width: 866px) {
+  .about-us {
+    flex-wrap: wrap;
   }
 }
 
