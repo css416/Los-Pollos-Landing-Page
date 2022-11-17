@@ -23,6 +23,11 @@
     margin: 0rem 0rem 0.5rem 1rem;
   }
 
+  .footer-section form {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
   /* .featured-details p {
     text-align: left;
   } */
@@ -101,6 +106,17 @@
   .owner {
     padding: 0;
   }
+
+  .footer-image {
+    width: 25%;
+  } 
+
+  .footer-content {
+    grid-template-areas:
+    "one one"
+    "two three"
+    "four five";
+  }
 }
 
 @media (max-width: 650px) {
@@ -166,6 +182,15 @@
   .image-container {
     flex-direction: column;
     gap: 1em;
+  }
+
+  .footer-content {
+    grid-template-areas:
+    "one one"
+    "two two"
+    "three three"
+    "four four"
+    "five five";
   }
 }
 
