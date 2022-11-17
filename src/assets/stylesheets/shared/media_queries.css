@@ -1,0 +1,167 @@
+@media (max-width: 1200px) {
+  main {
+    margin: 0;
+  }
+  .about-us {
+    flex-wrap: wrap;
+  }
+  .about-us > div {
+    flex: 0 1 auto;
+  }
+
+  .image-gallery img {
+    height: auto;
+  }
+
+  .image-gallery-slide .image-gallery-image {
+    object-fit: fill;
+  }
+
+  .featured-img {
+    /* float: left; */
+    float: right;
+    margin: 0rem 0rem 0.5rem 1rem;
+  }
+
+  /* .featured-details p {
+    text-align: left;
+  } */
+}
+
+@media (max-width: 960px) {
+  .row {
+    scroll-snap-type: x mandatory;
+  }
+  .col {
+    flex: 100%;
+    max-width: 80%;
+    scroll-snap-align: center;
+  }
+}
+
+@media (max-width: 866px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 0 2rem 0 0;
+  }
+
+  .navbar-links.false {
+    display: none;
+  }
+
+  .navbar-links.open {
+    position: absolute;
+    top: 9.5rem;
+    width: 100%;
+    background: var(--navbgtrans);
+    line-height: 1.4;
+    margin-right: 0;
+  }
+
+  .navbar-links.open ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-links.open.active {
+    background-color: #014c8a;
+    transition: all 0.7s ease-in-out;
+  }
+
+  .navbar-links.open.active a {
+    color: white;
+  }
+
+  .nav-toggle {
+    display: block;
+    font-size: 2rem;
+  }
+
+  .nav-toggle.open {
+    transition: transform 0.4s;
+    transform: rotate(-180deg);
+  }
+
+  .nav-toggle.closed {
+    transition: transform 0.4s;
+    transform: rotate(180deg);
+  }
+
+  .navbar-links.open a {
+    color: white;
+  }
+
+  .owner {
+    padding: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .owner-details {
+    position: static;
+    width: 100%;
+  }
+  .owner-details p {
+    font-size: clamp(0.8rem, 1.4vw, 1rem);
+  }
+  .image-container {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-logo img {
+    width: 50%;
+  }
+  .navbar-links.open { 
+    top: 4.7rem;
+  }
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .history-container {
+    padding: 1em;
+  }
+  .gallery-images {
+    gap: 0.5em;
+  }
+}
+
+@media (max-width: 540px) {
+  .main {
+    margin: 1em;
+  }
+  .inner {
+    padding: 0;
+  }
+  .testimonial {
+    width: 20em;
+  }
+  .footer-contact {
+    width: 12em;
+  }
+  .subscription {
+    width: 12em;
+  }
+  .footer-content {
+    margin: 0em 0.5em;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .owner-details {
+    position: static;
+    width: 90%;
+  }
+  .image-container {
+    flex-direction: column;
+    gap: 1em;
+  }
+}
+
+

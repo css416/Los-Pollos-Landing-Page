@@ -1,0 +1,130 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap");
+@import 'shared/fonts.css';
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+@import 'shared/navbar.css';
+@import 'shared/about.css';
+@import 'shared/featured.css';
+@import 'shared/menu.css';
+@import 'shared/gallery.css';
+@import 'shared/reviews.css';
+@import 'shared/owner.css';
+@import 'shared/footer.css';
+
+@import 'shared/media_queries.css';
+@import 'shared/loading-overlay.css';
+
+:root {
+  --footerh2: clamp(0.8rem, 1.5vw, 2.5rem);
+  --los-pollos-blue: #014c8a;
+  --navbgtrans: rgba(0, 0, 0, 0.5);
+  --default-font-family: "Poppins", sans-serif;
+  --header-font-family: 'JI Burrito';    
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 130px;
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+body {
+  padding: 0;
+  line-height: 1.8;
+  min-height: 100vh;
+  /* background: radial-gradient(circle, rgba(110,176,233,1) 15%, rgba(40,70,138,1) 100%); */
+  background: #121215;
+  color: #FFFFFF;
+  font-family: var(--default-font-family);
+  text-rendering: optimizeSpeed;
+  /* background-repeat: no-repeat; */
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+main {
+  margin: 0 1.5em;
+}
+
+.scroll-to-top button {
+  display: inline-block;
+  background-color: var(--los-pollos-blue);
+  color: #f4f4f4;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  border-style: none;
+  border: 1px solid #f4f4f4;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+  /* cursor: pointer; */
+}
+
+.scroll-to-top button:hover {
+  cursor: pointer;
+  background-color: #183e97;
+}
+
+.scroll-to-top.active button{
+  opacity: 1;
+  visibility: visible;
+}
+
+.light-gallery {
+  display: none;
+}
+
+.light-gallery.open {
+  display: inline;
+  position: absolute;
+  width: 100vw; 
+  height: 100vw; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  z-index: 1; 
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+.menu {
+    /* background-color: #f5f5f5; */
+    width: 100%;
+    /* border: 1px solid red; */
+    /* padding: 3em; */
+  }
+  
+  .menu span {
+    font-family: var(--header-font-family);
+    font-size: clamp(1rem, 3.5vw, 10rem);
+    text-transform: uppercase;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    /* color: #DB3124;
+    background-color: #F4D00C;
+    -webkit-text-stroke: 1.5px #174B99 */
+  }
+  
+  .menu-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 50%; */
+    gap: 1em;
+  }
+  
+  .menu-images img {
+  
+    width: 25%;
+    min-width: 20%;
+    /* height: auto; */
+    /* max-width: 100%; */
+  }

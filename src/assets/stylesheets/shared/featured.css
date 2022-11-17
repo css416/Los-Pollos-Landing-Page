@@ -1,0 +1,36 @@
+.featured-food {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    padding: 1em;
+    /* border: 1px solid red; */
+  }
+  
+  .featured-img {
+    max-width: 45%;
+  }
+  
+  .featured-img {
+    max-width: 45%;
+    float: left;
+    margin: 0rem 3rem 0.5rem 0rem;
+  }
+  
+  .featured-details {
+    text-align: left;
+  }
+  
+  .featured-details .featured-details-title {
+    font-family: var(--header-font-family);      
+    /* font-size: 4rem; */
+    font-size: clamp(1rem, 3.5vw, 10rem);
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
+  
+  .featured-details p {
+    font-size: clamp(0.6rem, 1.3vw, 5rem);
+    text-align: justify;
+  }

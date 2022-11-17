@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'JI Burrito';
+    src: url('../../fonts/JIBurrito.woff2') format('woff2'),
+        url('../../fonts/JIBurrito.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

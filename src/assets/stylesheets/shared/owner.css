@@ -1,0 +1,54 @@
+.owner {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 2em; */
+    position: relative;
+    margin-bottom: 1em;
+  }
+  
+  .image-container img{
+    width: 85%;
+  }
+  
+  .owner-details {
+    position: absolute;
+    background: hsl(219, 29%, 14%);
+    width: 44%;
+    /* top: 15%; */
+    right: 12%;
+    padding: 1.5em;
+    border-radius: 2em;
+    margin: 0 auto;
+    
+  }
+  
+  .owner-details h2 {
+    font-size: clamp(0.2rem, 2.5vw, 4rem);
+  }
+  
+  .owner-details p {
+    font-size: clamp(0.5rem, 1.4vw, 1rem);
+    font-weight: 500;
+    text-indent: 5%;
+  }
+  
+  .owner-details span {
+    font-size: clamp(0.6rem, 1vw, 1rem);
+  }
+  
+  .owner-details.quote {
+    background-image: url("../../images/quote.svg");
+    background-repeat: no-repeat;
+    /* background-position: top right 10%; */
+    background-position: 90% 10%;
+    background-size: 10% auto;
+  }
