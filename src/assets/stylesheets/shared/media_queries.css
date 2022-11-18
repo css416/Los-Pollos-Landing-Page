@@ -118,6 +118,11 @@
     "four five";
   }
 }
+@media (max-width: 675px) {
+  .row {
+    gap: 6em;
+  }
+}
 
 @media (max-width: 650px) {
   .owner-details {

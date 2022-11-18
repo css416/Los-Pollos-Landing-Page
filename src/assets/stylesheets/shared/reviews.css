@@ -70,7 +70,7 @@
 
   .inner span {
     font-family: var(--header-font-family);    
-    font-size: clamp(1rem, 3.5vw, 10rem);
+    font-size: var(--section-span-font-size);
     text-transform: uppercase;
     color: white;
   }
@@ -155,8 +155,8 @@
     margin-bottom: 20px;
   }
   .stars svg {
-    height: 1.5em;
-    width: 1.5em;
+    height: 2em;
+    width: 2em;
   }
   
   /* .review-images {

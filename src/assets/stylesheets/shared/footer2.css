@@ -111,6 +111,7 @@ footer {
     border: none;
     text-transform: uppercase;
     padding: 0.5em 1em;
+    font-size: var(--footer-font-size);
     /* margin-left: 1rem; */
     /* width: 100%; */
 }
