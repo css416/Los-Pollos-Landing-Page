@@ -8,9 +8,8 @@ import Menu from '../components/Menu';
 import Owner from '../components/Owner';
 import Featured from '../components/Featured';
 
-// import fontawesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
+// import icons
+import { FaChevronUp } from "react-icons/fa";
 
 
     // function importAll(r) {
@@ -130,7 +129,7 @@ const Home = () => {
 
       {/* scroll to top button  */}
       <div className={showScroll ? "scroll-to-top active" : "scroll-to-top"}>
-          <button onClick={scrollUp}><FontAwesomeIcon icon={faChevronUp} /></button>
+          <button onClick={scrollUp}><FaChevronUp /></button>
       </div>
 
       <div className="contact-us" id="contact">

@@ -115,6 +115,10 @@ footer {
     /* width: 100%; */
 }
 
+.footer-contact-details > * {
+    display: block;
+}
+
 .trademark {
     text-align: center;
     font-size: clamp(0.7rem, 0.5vw, 1.3rem);

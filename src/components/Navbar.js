@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { GiHamburgerMenu } from "react-icons/gi";
+import { GrClose } from "react-icons/gr";
 
 // components
 import headerLogo from '../assets/images/logo.png'
@@ -39,7 +39,8 @@ const Navbar = () => {
                         <Link to="/"><img src={headerLogo} alt="" /></Link>
                     </div>
                     <div className={`nav-toggle ${isOpen ? "open" : "closed"}`} onClick={() => setIsOpen(!isOpen)}>
-                                <i><FontAwesomeIcon icon={ isOpen === false ? faBars : faXmark } /></i>
+                                {/* <i><FontAwesomeIcon icon={ isOpen === false ? faBars : faXmark } /></i> */}
+                                <i>{ isOpen === false ? <GiHamburgerMenu /> : <GrClose /> }</i>
                     </div>
                     <div className={navbar ? `navbar-links ${isOpen && "open"} active` : `navbar-links ${isOpen && "open"}`}>
                     {/* <div className={`navbar-links ${isOpen && "open"}`}> */}

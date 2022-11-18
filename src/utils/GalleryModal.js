@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { IoMdArrowRoundBack as LeftArrow, IoMdArrowRoundForward as RightArrow } from "react-icons/io";
 
 const GalleryModal = ({ clickedImg, setClickedImg, handleRotationRight, handleRotationLeft }) => {
 
@@ -30,7 +29,7 @@ const GalleryModal = ({ clickedImg, setClickedImg, handleRotationRight, handleRo
                   clipRule="evenodd"
                 />
               </svg> */}
-              <FontAwesomeIcon icon={faArrowLeft} />
+              <LeftArrow />
             </div>
           </div>
           <div onClick={handleRotationRight} className="overlay-arrows_right">
@@ -47,7 +46,7 @@ const GalleryModal = ({ clickedImg, setClickedImg, handleRotationRight, handleRo
                   clipRule="evenodd"
                 />
               </svg> */}
-              <FontAwesomeIcon icon={faArrowRight} />
+              <RightArrow />
             </div>
           </div>
         </div>

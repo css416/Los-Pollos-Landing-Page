@@ -154,6 +154,10 @@
     color: #6ab04c;
     margin-bottom: 20px;
   }
+  .stars svg {
+    height: 1.5em;
+    width: 1.5em;
+  }
   
   /* .review-images {
     display: flex;

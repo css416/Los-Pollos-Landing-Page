@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
 import square_logo from "../assets/images/square_logo.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import { HiLocationMarker } from "react-icons/hi";
+import { IoMdMail } from "react-icons/io";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -43,11 +43,11 @@ const Footer = () => {
               <h2>Contact Info</h2>
               <div className="footer-contact-details">
                 <address>
-                  12000 - 12100 Coors Rd SW, Albuquerque, New Mexico 87045
+                  <HiLocationMarker /> 12000 - 12100 Coors Rd SW, Albuquerque, New Mexico 87045
                 </address>
                 {/* <Link to="mailto:customercare@lph.com">customercare@lph.com</Link> */}
-                <span>customercare@lph.com</span>
-                <span>(505) 146-0195</span>
+                <span><IoMdMail /> customercare@lph.com</span>
+                <span><FaPhoneAlt /> (505) 146-0195</span>
               </div>
             </div>
 

@@ -1,6 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar as filledStar} from '@fortawesome/free-solid-svg-icons'
-import { faStar as emptyStar } from '@fortawesome/free-regular-svg-icons'
+import { IoMdStar as FilledStar, IoMdStarOutline as EmptyStar } from "react-icons/io";
 
 const ReviewList = ({ reviews }) => {
     return (
@@ -21,7 +19,7 @@ const ReviewList = ({ reviews }) => {
 
                     //populate stars with empty stars
                     for(let i = 0; i < 5; i++) {
-                        stars.push(<FontAwesomeIcon icon={emptyStar} key={`star${i}`}/>);
+                        stars.push(<EmptyStar key={`star${i}`}/>);
                     }
 
                     // replace array depending on no. of stars
@@ -29,7 +27,7 @@ const ReviewList = ({ reviews }) => {
                         for (let i = 0; i < review.stars; i++) {
                             // return <div>{i}</div>
                             // stars.push(<FontAwesomeIcon icon={filledStar} key={`star${i}`}/>);
-                            stars[i] = <FontAwesomeIcon icon={filledStar} key={`star${i}`}/>;
+                            stars[i] = <FilledStar key={`star${i}`}/>;
                         }
                     }
                     
