@@ -1,6 +1,7 @@
 import { IoMdStar as FilledStar, IoMdStarOutline as EmptyStar } from "react-icons/io";
 
 const ReviewList = ({ reviews }) => {
+    console.log(reviews)
     return (
         
         <div className="row">

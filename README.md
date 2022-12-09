@@ -1,10 +1,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://los-pollos-hermanos-5ba22.web.app/">
      <img src="src/assets/images/logo.png" alt="Logo" width="150" height="150">
   </a>
-   <a href="https://github.com/othneildrew/Best-README-Template">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.sonypictures.com/tv/breakingbad">
      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/2560px-Breaking_Bad_logo.svg.png" alt="Logo" width="250" height="150">
   </a>
 
@@ -41,10 +42,30 @@ Make sure you have [Node.js](https://nodejs.org/en/) installed.
 1 - Install all the dependencies:
 
 ```sh
-npm **install**
+npm install
 ```
 
 2 - Start the server using the command:
 ```sh
-npm **start**
+npm start
 ```
+
+3 - Access the web application:
+```sh
+http://localhost:3000/ 
+```
+> Note: By default, React uses port 3000 when running a development server. If port 3000 is already in use, the terminal then asks for permission to use the next available port.
+
+## 📸 Screenshots
+
+💻 **Desktop:**
+
+<p align="center">
+  <img alt="" src="">
+</p>
+
+📱 **Mobile:**
+
+<p align="center">
+  <img alt="" src="">
+</p>

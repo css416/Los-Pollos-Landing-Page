@@ -60,8 +60,6 @@
   
   .about-us-img {
     position: relative;
-    /* height: 500px; */
-    /* max-width: 60%;  */
     width: 100%;
     overflow: hidden;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
@@ -69,29 +67,11 @@
     -ms-animation: fadein 3s; /* Internet Explorer */
     -o-animation: fadein 3s; /* Opera < 12.1 */
     animation: fadein 3s;
-    /* height: 500px;
-    width: 500px; */
-    border: 1px solid red;
-    /* margin: 0 auto; */
   }
 
-  .image-gallery img {
-    /* width: 100%;
-    max-height: 50vh;
-    object-fit: fill;  */
-    /* width: 100%; 
-    height: 100px; 
-    object-fit: fill;
-    display: block; */
-  }
-
-  /* .image-gallery-slide .image-gallery-image {
-    object-fit: fill;
-  } */
   
   .about-us-img .image-gallery-slides {
     border-radius: 2%;
-    /* object-fit: fill; */
   }
   
   .ttf {

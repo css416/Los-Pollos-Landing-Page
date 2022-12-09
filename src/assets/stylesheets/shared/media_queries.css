@@ -155,6 +155,9 @@
   .gallery-images {
     gap: 0.5em;
   }
+  .gallery-container {
+    width: 20%;
+  }
 }
 
 @media (max-width: 540px) {

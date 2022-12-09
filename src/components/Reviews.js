@@ -22,7 +22,7 @@ const Reviews = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
-    // console.log(reviews);
+    console.log(reviews);
 
     return (
     //     <div className="reviews">
