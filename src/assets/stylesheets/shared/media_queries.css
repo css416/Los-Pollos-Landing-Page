@@ -158,6 +158,9 @@
   .gallery-container {
     width: 20%;
   }
+  .menu-images img {
+    width: 25%;
+  }
 }
 
 @media (max-width: 540px) {
