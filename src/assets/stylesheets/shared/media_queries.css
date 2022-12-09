@@ -161,6 +161,10 @@
   .menu-images img {
     width: 25%;
   }
+  .footer-container {
+    padding: 1em 1.5em;
+}
+
 }
 
 @media (max-width: 540px) {
