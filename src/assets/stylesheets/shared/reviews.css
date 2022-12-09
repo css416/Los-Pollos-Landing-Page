@@ -28,7 +28,7 @@
   
   .testimonials {
       padding-bottom: 2.5em;
-      background-color: rgb(29, 30, 37);
+      /* background-color: var(); */
       color: #434343;
       text-align: center;
       position: relative;

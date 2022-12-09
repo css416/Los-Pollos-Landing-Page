@@ -1,5 +1,5 @@
 .gallery {
-    /* background-color: #f5f5f5; */
+    background-color: var(--section-alt-bg);
     max-width: 100%;
     /* border: 1px solid red; */
     position: relative;

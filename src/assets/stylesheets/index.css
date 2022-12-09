@@ -21,8 +21,9 @@
   --navbgtrans: rgba(0, 0, 0, 0.5);
   --default-font-family: "Poppins", sans-serif;
   --header-font-family: 'JI Burrito';   
-  --section-span-font-size: clamp(1.3rem, 3.5vw, 10rem);
+  --section-span-font-size: clamp(1.8rem, 3.5vw, 10rem);
   --footer-font-size: clamp(0.8rem, 0.8vw, 2rem);
+  --section-alt-bg: #1d1d22;
 }
 
 *,
@@ -69,7 +70,7 @@ img {
 }
 
 main {
-  margin: 0 1.5em;
+  /* margin: 0 1.5em; */
 }
 
 .scroll-to-top button {

@@ -42,6 +42,9 @@
     max-width: 80%;
     scroll-snap-align: center;
   }
+  .featured-food {
+    padding: 2.5em;
+  }
 }
 
 @media (max-width: 866px) {
@@ -109,18 +112,21 @@
 
   .footer-image {
     width: 25%;
-  } 
+  }
 
   .footer-content {
     grid-template-areas:
-    "one one"
-    "two three"
-    "four five";
+      "one one"
+      "two three"
+      "four five";
   }
 }
 @media (max-width: 675px) {
-  .row {
+  /* .row {
     gap: 6em;
+  } */
+  .featured-food {
+    padding: 2em;
   }
 }
 
@@ -142,7 +148,7 @@
   .navbar-logo img {
     width: 50%;
   }
-  .navbar-links.open { 
+  .navbar-links.open {
     top: 4.7rem;
   }
   .col {
@@ -163,14 +169,10 @@
   }
   .footer-container {
     padding: 1em 1.5em;
-}
-
+  }
 }
 
 @media (max-width: 540px) {
-  .main {
-    margin: 1em;
-  }
   .inner {
     padding: 0;
   }
@@ -186,7 +188,6 @@
   .footer-content {
     margin: 0em 0.5em;
   }
-
 }
 
 @media (max-width: 500px) {
@@ -198,15 +199,16 @@
     flex-direction: column;
     gap: 1em;
   }
+  .row {
+    gap: 2em;
+  }
 
   .footer-content {
     grid-template-areas:
-    "one one"
-    "two two"
-    "three three"
-    "four four"
-    "five five";
+      "one one"
+      "two two"
+      "three three"
+      "four four"
+      "five five";
   }
 }
-
-

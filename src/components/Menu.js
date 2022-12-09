@@ -1,4 +1,4 @@
-import feliz from '../assets/images/image-2.jpg'
+import feliz from '../assets/images/menu-sample.jpg'
 
 const Menu = () => {
     return (
