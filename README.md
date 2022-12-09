@@ -55,17 +55,3 @@ npm start
 http://localhost:3000/ 
 ```
 > Note: By default, React uses port 3000 when running a development server. If port 3000 is already in use, the terminal then asks for permission to use the next available port.
-
-## 📸 Screenshots
-
-💻 **Desktop:**
-
-<p align="center">
-  <img alt="" src="">
-</p>
-
-📱 **Mobile:**
-
-<p align="center">
-  <img alt="" src="">
-</p>
