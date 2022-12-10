@@ -28,7 +28,7 @@
 ## ✨ Links: 
 + [Live Preview](https://los-pollos-hermanos-5ba22.web.app/)
   
-## Quick Start
+## ⚡️ Quick Start
 
 Options:
 
